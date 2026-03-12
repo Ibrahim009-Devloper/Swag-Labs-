@@ -8,6 +8,16 @@ from utilities.custom_logger import log_maker
 
 class Test_invalid_login():
     logger = log_maker.log_gen()
+    def test_title_verification(self,setup):
+        self.driver = setup
+        self.driver.get(read_config.get_url())
+        act_url = self.driver.title
+        exp_title = "Swag Labs"
+        assert act_url == exp_title, "title is not matching"
+        
+
+
+
     def test_invalid_login(self,setup):
         self.logger.info("*******invalid test case started*********")
         self.driver = setup
