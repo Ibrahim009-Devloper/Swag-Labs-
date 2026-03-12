@@ -71,3 +71,9 @@
 2026-03-12 22:38:51 | INFO | Swag Labs test logs | ********title verification has been ended*********
 2026-03-12 22:38:55 | INFO | Swag Labs test logs | ********valid login test case has started*********
 2026-03-12 22:38:56 | INFO | Swag Labs test logs | ********valid login test case has finished*********
+2026-03-12 22:45:39 | INFO | Swag Labs test logs | *******invalid test case started*********
+2026-03-12 22:45:41 | INFO | Swag Labs test logs | ********invalid test case finished**********
+2026-03-12 22:45:44 | INFO | Swag Labs test logs | ******title verification has started*********
+2026-03-12 22:45:45 | INFO | Swag Labs test logs | ********title verification has been ended*********
+2026-03-12 22:45:49 | INFO | Swag Labs test logs | ********valid login test case has started*********
+2026-03-12 22:45:50 | INFO | Swag Labs test logs | ********valid login test case has finished*********

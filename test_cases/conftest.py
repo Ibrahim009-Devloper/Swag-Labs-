@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 @pytest.fixture
 def setup():
     option = Options()
-    option.add_argument("--headless")
+    # option.add_argument("--headless")
     option.add_argument("--no-sandbox")
     option.add_argument("--start-maximize")
     prefs = {
@@ -18,6 +18,10 @@ def setup():
 
     option.add_experimental_option("prefs", prefs)
     option.add_argument("--disable-features=PasswordLeakDetection")
+    option.add_argument("--disable-save-password-bubble")
+
+    option.add_argument("--disable-notifications")
+    option.add_argument("--guest")
 
     driver = webdriver.Chrome(options= option)
     yield driver
